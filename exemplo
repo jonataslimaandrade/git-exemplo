@@ -1,1 +1,4 @@
-primeiro commit
+git config --global user.name jonataslimaandrade
+git config --global user.email jonatasniclei@hotmail.com
+git pull origin master
+git push origin master
