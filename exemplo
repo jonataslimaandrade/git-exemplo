@@ -1,4 +1,7 @@
-git config --global user.name jonataslimaandrade
-git config --global user.email jonatasniclei@hotmail.com
+http://git-scm.com para biaxar o doc
+
+git config --global user.name "jonataslimaandrade"
+git config --global user.email "jonatasniclei@hotmail.com"
+
 git pull origin master
 git push origin master
