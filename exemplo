@@ -1,8 +1,8 @@
 git config --global user.name "jonataslimaandrade" 
 git config --global user.email "jonatasniclei@hotmail.com" 
- 
-git pull origin master 
-git push origin master 
+
+http://git-scm.com para biaxar o doc 
+
 git init 
  
 git add *.txt 
