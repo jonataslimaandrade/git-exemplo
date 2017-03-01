@@ -1,0 +1,66 @@
+git config --global user.name "jonataslimaandrade" 
+git config --global user.email "jonatasniclei@hotmail.com" 
+ 
+git pull origin master 
+git push origin master 
+git init 
+ 
+git add *.txt 
+ 
+git add . para todos 
+ 
+git commit -m "commit inicial" para salvar todas as alterações 
+ 
+o arquivo .gitignore para ignorar qualquer arquivo que colocar dentro 
+git commit -a -m "Linha adicionado no readme" serve p/ pular a etapa do add 
+ 
+git diff o que foi alterado 
+ 
+git diff --staged mostra o que tá na stage area 
+ 
+git log informa tudo que foi alterado desde quando foi criado 
+ 
+git log -p informa tudo que foi alterado desde quando foi criado mais detalhado 
+ 
+git log -p -1 só o ultimo 
+ 
+git log -p -2 só os dois ultimos 
+ 
+git log -p -3 só os três ultimos 
+ 
+gitk para uma visualização na interface gráfica 
+ 
+git log --pretty=oneline mostrar o código de cada commit e a mensagem 
+ 
+git commit --amend -m "" para editar uma alteração já commitada  
+ 
+git reset HEAD para remover um arquivo da stage area 
+ 
+git checkout -- <arquivo> para descartar mudanças no diretório de trabalho 
+ 
+git rm <arquivo> para remover o arquivo 
+ 
+git tag -a v1.0 -m "versao 1.0" para criar uma tag 
+ 
+git checkout <nome versao> ex.: v0.0 
+ 
+git tag -d <nome da tag> ex.: v0.0 
+ 
+git branch <nome> ex.: teste cria o branch teste 
+ 
+git checkout <nome versao> ex.: teste entra no teste 
+ 
+git merge <nome do branch> ex.: teste importa pro master 
+ 
+git branch para listar os branch existentes 
+ 
+git branch -d <nome do branch> ex.: teste 
+ 
+git init --bare para repositorio em rede local 
+ 
+git remote saber o nome do servidor remoto 
+ 
+git pull origin master para pegar do servidor 
+git push origin master para mandar pro servidor 
+
+
